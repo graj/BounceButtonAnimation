@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F46BAF9C17A7E1D800BF1B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46BAF9B17A7E1D800BF1B9A /* UIKit.framework */; };
+		F46BAF9E17A7E1D800BF1B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46BAF9D17A7E1D800BF1B9A /* Foundation.framework */; };
+		F46BAFA017A7E1D800BF1B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46BAF9F17A7E1D800BF1B9A /* CoreGraphics.framework */; };
+		F46BAFA617A7E1D800BF1B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFA417A7E1D800BF1B9A /* InfoPlist.strings */; };
+		F46BAFA817A7E1D800BF1B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F46BAFA717A7E1D800BF1B9A /* main.m */; };
+		F46BAFAC17A7E1D800BF1B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F46BAFAB17A7E1D800BF1B9A /* AppDelegate.m */; };
+		F46BAFAE17A7E1D800BF1B9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFAD17A7E1D800BF1B9A /* Default.png */; };
+		F46BAFB017A7E1D800BF1B9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFAF17A7E1D800BF1B9A /* Default@2x.png */; };
+		F46BAFB217A7E1D800BF1B9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFB117A7E1D800BF1B9A /* Default-568h@2x.png */; };
+		F46BAFB517A7E1D800BF1B9A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFB317A7E1D800BF1B9A /* MainStoryboard.storyboard */; };
+		F46BAFB817A7E1D800BF1B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46BAFB717A7E1D800BF1B9A /* ViewController.m */; };
+		F46BAFC217A7E35E00BF1B9A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFBE17A7E35E00BF1B9A /* 1.png */; };
+		F46BAFC317A7E35E00BF1B9A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFBF17A7E35E00BF1B9A /* 5.png */; };
+		F46BAFC417A7E35E00BF1B9A /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFC017A7E35E00BF1B9A /* 13.png */; };
+		F46BAFC517A7E35E00BF1B9A /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = F46BAFC117A7E35E00BF1B9A /* 14.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F46BAF9817A7E1D800BF1B9A /* BounceButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BounceButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46BAF9B17A7E1D800BF1B9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F46BAF9D17A7E1D800BF1B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F46BAF9F17A7E1D800BF1B9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F46BAFA317A7E1D800BF1B9A /* BounceButtonAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BounceButtonAnimation-Info.plist"; sourceTree = "<group>"; };
+		F46BAFA517A7E1D800BF1B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F46BAFA717A7E1D800BF1B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F46BAFA917A7E1D800BF1B9A /* BounceButtonAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BounceButtonAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		F46BAFAA17A7E1D800BF1B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F46BAFAB17A7E1D800BF1B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F46BAFAD17A7E1D800BF1B9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F46BAFAF17A7E1D800BF1B9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F46BAFB117A7E1D800BF1B9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F46BAFB417A7E1D800BF1B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F46BAFB617A7E1D800BF1B9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F46BAFB717A7E1D800BF1B9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F46BAFBE17A7E35E00BF1B9A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F46BAFBF17A7E35E00BF1B9A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F46BAFC017A7E35E00BF1B9A /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		F46BAFC117A7E35E00BF1B9A /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46BAF9517A7E1D800BF1B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46BAF9C17A7E1D800BF1B9A /* UIKit.framework in Frameworks */,
+				F46BAF9E17A7E1D800BF1B9A /* Foundation.framework in Frameworks */,
+				F46BAFA017A7E1D800BF1B9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46BAF8F17A7E1D800BF1B9A = {
+			isa = PBXGroup;
+			children = (
+				F46BAFA117A7E1D800BF1B9A /* BounceButtonAnimation */,
+				F46BAF9A17A7E1D800BF1B9A /* Frameworks */,
+				F46BAF9917A7E1D800BF1B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46BAF9917A7E1D800BF1B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46BAF9817A7E1D800BF1B9A /* BounceButtonAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46BAF9A17A7E1D800BF1B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46BAF9B17A7E1D800BF1B9A /* UIKit.framework */,
+				F46BAF9D17A7E1D800BF1B9A /* Foundation.framework */,
+				F46BAF9F17A7E1D800BF1B9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46BAFA117A7E1D800BF1B9A /* BounceButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F46BAFAA17A7E1D800BF1B9A /* AppDelegate.h */,
+				F46BAFAB17A7E1D800BF1B9A /* AppDelegate.m */,
+				F46BAFB317A7E1D800BF1B9A /* MainStoryboard.storyboard */,
+				F46BAFB617A7E1D800BF1B9A /* ViewController.h */,
+				F46BAFB717A7E1D800BF1B9A /* ViewController.m */,
+				F46BAFA217A7E1D800BF1B9A /* Supporting Files */,
+			);
+			path = BounceButtonAnimation;
+			sourceTree = "<group>";
+		};
+		F46BAFA217A7E1D800BF1B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46BAFBE17A7E35E00BF1B9A /* 1.png */,
+				F46BAFBF17A7E35E00BF1B9A /* 5.png */,
+				F46BAFC017A7E35E00BF1B9A /* 13.png */,
+				F46BAFC117A7E35E00BF1B9A /* 14.png */,
+				F46BAFA317A7E1D800BF1B9A /* BounceButtonAnimation-Info.plist */,
+				F46BAFA417A7E1D800BF1B9A /* InfoPlist.strings */,
+				F46BAFA717A7E1D800BF1B9A /* main.m */,
+				F46BAFA917A7E1D800BF1B9A /* BounceButtonAnimation-Prefix.pch */,
+				F46BAFAD17A7E1D800BF1B9A /* Default.png */,
+				F46BAFAF17A7E1D800BF1B9A /* Default@2x.png */,
+				F46BAFB117A7E1D800BF1B9A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46BAF9717A7E1D800BF1B9A /* BounceButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46BAFBB17A7E1D800BF1B9A /* Build configuration list for PBXNativeTarget "BounceButtonAnimation" */;
+			buildPhases = (
+				F46BAF9417A7E1D800BF1B9A /* Sources */,
+				F46BAF9517A7E1D800BF1B9A /* Frameworks */,
+				F46BAF9617A7E1D800BF1B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BounceButtonAnimation;
+			productName = BounceButtonAnimation;
+			productReference = F46BAF9817A7E1D800BF1B9A /* BounceButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46BAF9017A7E1D800BF1B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = GRaj;
+			};
+			buildConfigurationList = F46BAF9317A7E1D800BF1B9A /* Build configuration list for PBXProject "BounceButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F46BAF8F17A7E1D800BF1B9A;
+			productRefGroup = F46BAF9917A7E1D800BF1B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46BAF9717A7E1D800BF1B9A /* BounceButtonAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46BAF9617A7E1D800BF1B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46BAFA617A7E1D800BF1B9A /* InfoPlist.strings in Resources */,
+				F46BAFAE17A7E1D800BF1B9A /* Default.png in Resources */,
+				F46BAFB017A7E1D800BF1B9A /* Default@2x.png in Resources */,
+				F46BAFB217A7E1D800BF1B9A /* Default-568h@2x.png in Resources */,
+				F46BAFB517A7E1D800BF1B9A /* MainStoryboard.storyboard in Resources */,
+				F46BAFC217A7E35E00BF1B9A /* 1.png in Resources */,
+				F46BAFC317A7E35E00BF1B9A /* 5.png in Resources */,
+				F46BAFC417A7E35E00BF1B9A /* 13.png in Resources */,
+				F46BAFC517A7E35E00BF1B9A /* 14.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46BAF9417A7E1D800BF1B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46BAFA817A7E1D800BF1B9A /* main.m in Sources */,
+				F46BAFAC17A7E1D800BF1B9A /* AppDelegate.m in Sources */,
+				F46BAFB817A7E1D800BF1B9A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46BAFA417A7E1D800BF1B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46BAFA517A7E1D800BF1B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F46BAFB317A7E1D800BF1B9A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46BAFB417A7E1D800BF1B9A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46BAFB917A7E1D800BF1B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F46BAFBA17A7E1D800BF1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46BAFBC17A7E1D800BF1B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BounceButtonAnimation/BounceButtonAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BounceButtonAnimation/BounceButtonAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F46BAFBD17A7E1D800BF1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BounceButtonAnimation/BounceButtonAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BounceButtonAnimation/BounceButtonAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46BAF9317A7E1D800BF1B9A /* Build configuration list for PBXProject "BounceButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46BAFB917A7E1D800BF1B9A /* Debug */,
+				F46BAFBA17A7E1D800BF1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46BAFBB17A7E1D800BF1B9A /* Build configuration list for PBXNativeTarget "BounceButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46BAFBC17A7E1D800BF1B9A /* Debug */,
+				F46BAFBD17A7E1D800BF1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46BAF9017A7E1D800BF1B9A /* Project object */;
+}
