@@ -22,12 +22,16 @@
 
 #pragma mark - Bounce Button Animations
 
+
 CGFloat buttonScale = 1.0;
 int growDir = 0;
 int growCount = 0;
 
 -(void)bounceAnimateButton:(id)sender
 {
+    if (_bounceTimer) {
+        return;
+    }
     UIButton* button = (UIButton*)sender;
     NSDictionary *userInfo = @{@"buttonId": button};
     growDir = 1;
@@ -59,6 +63,7 @@ int growCount = 0;
 			buttonScale = buttonScale + 0.1f;
 			if (buttonScale == 1.00000) {
 				[_bounceTimer invalidate];
+                _bounceTimer = nil;
 			}
 			break;
 	}
@@ -66,6 +71,7 @@ int growCount = 0;
 	CGAffineTransform transform = CGAffineTransformMakeScale(buttonScale, buttonScale);
 	selBtn.transform = transform;
 }
+
 
 - (void)didReceiveMemoryWarning
 {
